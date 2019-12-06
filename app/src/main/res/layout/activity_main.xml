@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <TextView
+        android:id="@+id/texto"
+        android:text="@string/sobre_app"
+        style="@style/EstiloSobre"
+        android:textAlignment="center"
+        android:background="?android:attr/selectableItemBackground" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/categoria_playlist">
+        <TextView
+            android:id="@+id/playlist"
+            style="@style/EstiloCategoria"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/categoria_playlist" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/categoria_artistas">
+        <TextView
+            android:id="@+id/artistas"
+            style="@style/EstiloCategoria"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/categoria_artistas" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/categoria_albuns">
+        <TextView
+            android:id="@+id/album"
+            style="@style/EstiloCategoria"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/categoria_albuns" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/categoria_musicas">
+        <TextView
+            android:id="@+id/musica"
+            style="@style/EstiloCategoria"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/categoria_musicas" />
+    </FrameLayout>
+
+</LinearLayout>

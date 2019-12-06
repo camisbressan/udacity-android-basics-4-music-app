@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Músicapp</string>
+    <string name="sobre_app">Ouça suas músicas preferidas!</string>
+    <string name="categoria_playlist">Playlist</string>
+    <string name="categoria_artistas">Artistas</string>
+    <string name="categoria_albuns">Álbuns</string>
+    <string name="categoria_musicas">Músicas</string>
+    <string name="playing">Tocando agora... </string>
+    <string name="back"><![CDATA[|<]]></string>
+    <string name="next"><![CDATA[>|]]></string>
+    <string name="pause">||</string>
+    <string name="play">\u25B6</string>
+</resources>

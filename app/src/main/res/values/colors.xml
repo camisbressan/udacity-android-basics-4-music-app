@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_color">#311B92</color>
+    <color name="primary_dark_color">#311B92</color>
+
+    <!-- Cor de fundo -->
+    <color name="tan_background">#EDE7F6</color>
+
+    <!-- Cores da Lista -->
+    <color name="categoria_playlist">#7E57C2</color>
+    <color name="categoria_artistas">#9575CD</color>
+    <color name="categoria_albuns">#B39DDB</color>
+    <color name="categoria_musicas">#D1C4E9</color>
+</resources>

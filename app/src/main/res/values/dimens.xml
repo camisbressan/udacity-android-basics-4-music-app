@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lista_item_height">88dp</dimen>
+    <dimen name="sobre_item_height">60dp</dimen>
+    <dimen name="padrao_margem">16dp</dimen>
+    <dimen name="seek_bar_tamanho">260dp</dimen>
+    <dimen name="imagem_tamanho">150dp</dimen>
+</resources>
